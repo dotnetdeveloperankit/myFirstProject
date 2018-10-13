@@ -12,6 +12,7 @@ namespace myFirstProject.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.lalit = "ROR";
             return View();
         }
 
