@@ -29,6 +29,13 @@ namespace myFirstProject.Controllers
 
             return View();
         }
+        //Ankit KA Code
+        public IActionResult ContactA()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
 
         public IActionResult Privacy()
         {
